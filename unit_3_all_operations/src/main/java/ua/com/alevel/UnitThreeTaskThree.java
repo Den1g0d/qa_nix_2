@@ -81,39 +81,38 @@ public class UnitThreeTaskThree {
         long hoursLessonTen = TimeUnit.MILLISECONDS.toHours(lessonTen);
         long minutesLessonTen = lessonTen / 60_000L % 60L;
 
-
-            switch (sInt) {
-                case 1:
-                    System.out.println(hoursLessonOne + " " + minutesLessonOne);
-                    break;
-                case 2:
-                    System.out.println(hoursLessonTwo + " " + minutesLessonTwo);
-                    break;
-                case 3:
-                    System.out.println(hoursLessonThree + " " + minutesLessonThree);
-                    break;
-                case 4:
-                    System.out.println(hoursLessonFour + " " + minutesLessonFour);
-                    break;
-                case 5:
-                    System.out.println(hoursLessonFive + " " + minutesLessonFive);
-                    break;
-                case 6:
-                    System.out.println(hoursLessonSix + " " + minutesLessonSix);
-                    break;
-                case 7:
-                    System.out.println(hoursLessonSeven + " " + minutesLessonSeven);
-                    break;
-                case 8:
-                    System.out.println(hoursLessonEight + " " + minutesLessonEight);
-                    break;
-                case 9:
-                    System.out.println(hoursLessonNine + " " + minutesLessonNine);
-                    break;
-                case 10:
-                    System.out.println(hoursLessonTen + " " + minutesLessonTen);
-            }
-       
-
+        switch (sInt) {
+            case 1:
+                System.out.println(hoursLessonOne + " " + minutesLessonOne);
+                break;
+            case 2:
+                System.out.println(hoursLessonTwo + " " + minutesLessonTwo);
+                break;
+            case 3:
+                System.out.println(hoursLessonThree + " " + minutesLessonThree);
+                break;
+            case 4:
+                System.out.println(hoursLessonFour + " " + minutesLessonFour);
+                break;
+            case 5:
+                System.out.println(hoursLessonFive + " " + minutesLessonFive);
+                break;
+            case 6:
+                System.out.println(hoursLessonSix + " " + minutesLessonSix);
+                break;
+            case 7:
+                System.out.println(hoursLessonSeven + " " + minutesLessonSeven);
+                break;
+            case 8:
+                System.out.println(hoursLessonEight + " " + minutesLessonEight);
+                break;
+            case 9:
+                System.out.println(hoursLessonNine + " " + minutesLessonNine);
+                break;
+            case 10:
+                System.out.println(hoursLessonTen + " " + minutesLessonTen);
+            default:
+                System.out.println("Your input is not in range from 1 till 10");
+        }
     }
 }
