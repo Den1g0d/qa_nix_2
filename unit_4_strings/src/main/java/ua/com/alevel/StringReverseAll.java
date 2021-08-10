@@ -3,7 +3,6 @@ package ua.com.alevel;
 public class StringReverseAll {
 
     public static String reverse(String src, boolean reverseAll) {
-
         char[] s = src.toCharArray();
         String rS = "";
         String[] splitSentence = src.split(" ");

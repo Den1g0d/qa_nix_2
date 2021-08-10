@@ -3,7 +3,6 @@ package ua.com.alevel;
 public class StringReverseByIndex {
 
     String reverse(String src, int firstIndex, int lastIndex) {
-
         String rS = "";
         String nS = "";
 
@@ -21,7 +20,6 @@ public class StringReverseByIndex {
             rS = rS + revWord + " ";
             String rsTrim = (rS == null || rS.length() == 0) ? null : (rS.substring(0, rS.length() - 1));
             nS = src.replace(iString, rsTrim);
-
         }
         return nS;
     }

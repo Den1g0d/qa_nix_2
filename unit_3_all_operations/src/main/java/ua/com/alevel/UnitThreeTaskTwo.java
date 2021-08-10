@@ -9,7 +9,6 @@ import java.util.Arrays;
 public class UnitThreeTaskTwo {
 
     public void run() throws IOException {
-
         System.out.println("Please input your string: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8));
         String s = reader.readLine();
@@ -20,9 +19,8 @@ public class UnitThreeTaskTwo {
         int[] freq = new int[118];
         int sort = 1;
 
-
         for (int i = 0; i < chars.length; i++) {
-                char ch = s.charAt(i);
+            char ch = s.charAt(i);
 
             for (int j = 0; j < specialChars.length; j++) {
                 if (ch == specialChars[j]) {
@@ -39,6 +37,5 @@ public class UnitThreeTaskTwo {
                 System.out.println(ascCount + ". " + specialChars[i] + " - " + freq[i]);
             }
         }
-
     }
 }

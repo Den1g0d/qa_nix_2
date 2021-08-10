@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 public class StartMain {
 
     public static void main(String[] args) throws IOException {
-
         System.out.println("Please input your string for output reverse:");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
@@ -41,6 +40,5 @@ public class StartMain {
         int s5 = Integer.parseInt(reader5.readLine());
         StringReverseByIndex obj2 = new StringReverseByIndex();
         System.out.println(obj2.reverse(s3, s4, s5));
-
     }
 }

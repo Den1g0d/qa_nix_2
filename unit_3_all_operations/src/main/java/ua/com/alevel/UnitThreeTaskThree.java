@@ -12,7 +12,6 @@ import java.util.concurrent.TimeUnit;
 public class UnitThreeTaskThree {
 
     public void run() {
-
         System.out.println("Please input lesson number from 1 till 10 to find lesson end time:");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int sInt = 0;
