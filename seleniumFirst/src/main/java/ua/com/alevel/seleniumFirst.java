@@ -17,10 +17,6 @@ import java.util.function.Function;
 
 public class seleniumFirst {
 
-    public static void main(String[] args) {
-
-    }
-
     @Test
     @Deprecated
     public void findElementByIdAndAbsoluteXpath() {
