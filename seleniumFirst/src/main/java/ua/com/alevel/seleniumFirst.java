@@ -98,7 +98,6 @@ public class seleniumFirst {
         }
     }
 
-
     @Test
     @Deprecated
     public void findElementLinkText() {
