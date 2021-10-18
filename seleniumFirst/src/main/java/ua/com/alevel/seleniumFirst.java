@@ -14,7 +14,12 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
+
 public class seleniumFirst {
+
+    public static void main(String[] args) {
+
+    }
 
     @Test
     @Deprecated
